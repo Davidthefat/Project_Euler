@@ -10,7 +10,7 @@ int main()
 	bool prime = false;
 	for(int i = 1; ind < 10002; i ++)
 	{
-		for(int t = 1; t < ind && !prime; t++)
+		for(int t = 1; t < ind && prime; t++)
 			if(!(i % primes[t]))
 				prime = false;
 		if(prime)
