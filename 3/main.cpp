@@ -18,9 +18,7 @@ int main()
 		prime = true;
 	}
 	ind = 1;
-
 	unsigned long result = 600851475143;
-	unsigned long start = result;
 	while(ind < 1000)
 	{
 		if(primes[ind] > result)
