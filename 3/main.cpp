@@ -8,7 +8,7 @@ int main()
 	primes[0] = 1;
 	primes[1] = 2;
 	bool prime = false;
-	for(int i = 1; ind < 1000; i ++)
+	for(int i = 3; ind < 1000; i ++)
 	{
 		for(int t = 1; t < ind && prime; t++)
 			if(!(i % primes[t]))
